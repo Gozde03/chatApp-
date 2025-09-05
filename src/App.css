@@ -18,6 +18,27 @@
   filter: drop-shadow(0 0 2em #61dafbaa);
 }
 
+/* Neon glow efektleri */
+.neon-pink {
+  border-color: #ff69b4;
+  box-shadow: 0 0 10px #ff69b4, 0 0 20px #ff69b4, 0 0 30px #ff69b4;
+}
+
+.neon-yellow {
+  border-color: #ffff00;
+  box-shadow: 0 0 10px #ffff00, 0 0 20px #ffff00, 0 0 30px #ffff00;
+}
+
+.neon-input {
+  box-shadow: 0 0 5px #ff69b4, 0 0 10px #ff69b4;
+}
+
+.neon-button {
+  box-shadow: 0 0 10px #ff69b4, 0 0 20px #ff69b4;
+}
+
+
+
 @keyframes logo-spin {
   from {
     transform: rotate(0deg);
